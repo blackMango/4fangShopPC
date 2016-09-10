@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+#regist {
+	min-width:1320px;
+	background-color:#cfe8f9;
+}
+#regist img {
+	float:left;
+	width:500px;
+	margin:120px 80px 0px;
+}
+#aside {
+	float:left;
+	margin:80px 80px 0px;
+	width:500px;
+}
+#aside .regist {
+	padding:0px;
+	width:500px;
+	/*height:400px;*/
+	border:1px solid #2ac7f8;
+	background-color:#fff;
+}
+/*.regist > .ctrl {
+	position:absolute;
+	top:20px;
+	right:20px;
+	width:24px;
+	height:24px;
+	border-radius:24px;
+	background-color:#4ecef6;
+	cursor:pointer;
+}
+.regist > .ctrl > input {
+	margin:4px;
+}*/
+#aside .regist > h1 {
+	width:400px;
+	font-family:"创艺简楷体";
+	font-size:30px;
+	line-height:50px;
+	color:#2a2a2a;
+	margin:0px auto;
+	text-align:center;
+	padding:20px 0px 0px;
+}
+#aside .regist > ul {
+	width:400px;
+	margin:10px auto;
+	list-style:none;
+	padding:0px 30px;
+	border-bottom:3px solid #fc6701;
+}
+#aside .regist > ul > li {
+	list-style:none;
+	float:left;
+	
+}
+#aside .regist > ul > li a {
+	font-size:18px;
+	font-family:"创艺简楷体";
+	color:#6a6a6a;
+	line-height:30px;
+	width:170px;
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+}
+.current {
+	border-bottom:3px solid #009944;
+}
+#aside .regist > .common,#aside .regist > .note,#aside .regist > .email,#aside .regist > .mobilephone {
+	width:340px;
+	margin:0px auto;
+}
+#aside .regist > .common h3,#aside .regist > .note h3,#aside .regist > .email h3,#aside .regist > .mobilephone h3 {
+	font-size:16px;
+	color:#666;
+	font-family:"创艺简楷体";
+	float:left;
+	line-height:36px;
+	margin:10px 0px;
+	letter-spacing:3px;
+	font-weight:normal;
+}
+#aside .regist > .common h3 del,#aside .regist > .email h3 del,#aside .regist > .mobilephone h3 del {
+	letter-spacing:3px;
+	font-size:16px;
+	line-height:36px;
+	font-family:"创艺简楷体";
+	opacity:0;
+}
+#aside .regist > .common .phonebox,#aside .regist > .note .phonebox,#aside .regist > .email .phonebox,#aside .regist > .mobilephone .phonebox {
+	float:right;
+	margin:10px 0px 0px;
+	width:260px;
+}
+#aside .regist > .common .phone,#aside .regist > .note .pass,#aside .regist > .email .phone,#aside .regist > .mobilephone .phone {
+	width:260px;
+	height:36px;
+	background-color:#ecfaff;
+	border:1px solid #009944;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	float:left;
+	color:#999;
+	padding:0px 10px;
+	font-size:14px;
+}
+#aside .regist > .common .pass,#aside .regist > .email .pass,#aside .regist > .mobilephone .pass {
+	width:100px;
+	height:36px;
+	background-color:#ecfaff;
+	border:1px solid #009944;
+	border-radius:4px;
+	float:left;
+}
+#aside .regist > .common .button,#aside .regist > .note  .button,#aside .regist > .email .button,#aside .regist > .mobilephone .button {
+	float:right;
+	width:260px;
+	height:36px;
+	border-radius:4px;
+	background-color:#009944;
+	border:none;
+	font-size:20px;
+	font-family:"创艺简楷体";
+	color:#fafafa;
+	text-align:center;
+	cursor:pointer;
+	margin:10px 0px 0px;
+	line-height:36px;
+}
+#aside .regist > .common .check-box,#aside .regist > .email .check-box,#aside .regist > .mobilephone .check-box {
+	width:240px;
+	float:right;
+	margin:10px 0px;	
+}
+#aside .regist > .common .check-box img {
+	float:left;
+	margin:0px 5px 0px 0px;
+}
+#aside .regist > .common .check-box p {
+	float:left;
+	font-family:"创艺简楷体";
+	line-height:16px;
+}
+#aside .regist > hgroup {
+	width:400px;
+	margin:15px auto;	
+}
+#aside .regist > hgroup h6 {
+	float:right;
+	font-weight:normal;
+	line-height:28px;
+	cursor:pointer;
+}
+#aside .regist > hgroup h5 {
+	float:right;
+	font-weight:normal;
+	line-height:28px;
+}
+#aside .regist > hgroup h5 a {
+	display:inline-block;
+	font-family:"创艺简楷体";
+	line-height:28px;
+	cursor:pointer;
+}
+#aside .regist > hgroup h6 a {
+	color:#fc6701;
+	font-family:"创艺简楷体";
+	line-height:28px;
+}
+
+
+.currentbg {
+	box-shadow:#666 3px 3px 10px;
+	
+}
+
+#aside .regist > .note .phonebox .submit {
+	width:110px;
+	height:36px;
+	background-color:#86def9;
+	border:1px solid #4ecef6;
+	border-radius:4px;
+	float:left;
+	color:#006281;
+	text-align:center;
+	line-height:34px;
+	font-family:"创艺简楷体";
+	margin:0px 0px 0px 10px;
+	cursor:pointer;
+}
+#aside .regist > .note .phone {
+	width:140px;
+	height:36px;
+	font-size:14px;
+	background-color:#ecfaff;
+	border:1px solid #009944;
+	border-radius:4px;
+	float:left;
+	padding:0px 10px;
+}
+
+#aside .regist > .mobilephone span {
+	width:90px;
+	height:36px;
+	background-color:#ecfaff;
+	border:1px solid #4ecef6;
+	border-radius:4px;
+	float:left;
+	margin:0px 5px;
+	color:#c70000;
+	font-family:"方正大黑简体";
+	font-size:24px;
+	line-height:36px;
+	text-align:center;
+	letter-spacing:5px;
+}
+#aside .regist > .mobilephone .phonebox p {
+	float:left;
+	line-height:36px;
+	color:#0181ab;
+	cursor:pointer;
+}
+
+#aside .regist > .email .phonebox h4,#aside .regist > .mobilephone h4 {
+	font-size:14px;
+	font-family:"创艺简楷体";
+	color:#909090;
+	line-height:24px;
+	font-weight:normal;
+	float:left;
+}
+#aside .regist > .email .phonebox a {
+	color:#0181ab;
+	font-family:"创艺简楷体";
+	line-height:24px;
+	float:left;
+}
+#aside .regist > .email .check-box p,#aside .regist > .mobilephone .check-box p {
+	float:right;
+	margin:0px 2px;
+	font-family:"创艺简楷体";
+	line-height:15px;
+}
+#aside .regist > .email .check-box b,#aside .regist > .mobilephone .check-box b {
+	float:right;
+	color:#0181ab;
+	font-weight:normal;
+	font-family:"创艺简楷体";
+	line-height:15px;
+	margin:0px 15px 0px 0px;
+}

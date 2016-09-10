@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section .contentbox {
+	width:1000px;
+	margin:0px auto 20px;
+}
+#section .contentbox #nav {
+	margin:0px auto 10px;
+}
+#section .contentbox ul {
+	width:100%;
+	border-bottom:2px solid #00c7db;
+}
+.currentstyle {
+	border:1px solid #00c7db;
+	border-bottom:none !important;
+	color:#0086af;
+	float:left;
+	padding:0px 24px;
+}
+#section .contentbox li {
+	list-style:none;
+	line-height:34px;
+	font-size:14px;
+}
+
+#section .contentbox .contbox {
+	width:600px;
+	float:right;
+}
+#section .contentbox .contbox .btn{
+	float:right;
+	font-size:16px;
+	line-height:30px;
+	color:#fff;
+	background-color:#2598c7;
+	padding:0px 20px;
+	border-radius:6px;
+	margin:2px auto;
+}
+#section .contentbox .contbox p{
+	float:right;
+	font-size:16px;
+	color:#fe840c;
+	margin:0px 10px 0px 0px;
+}
+#section .contentbox .contbox h4{
+	float:right;
+	font-size:12px;
+	color:#333;
+	margin:0px 0px 0px 15px;
+	font-weight:normal;
+}
+#section .contentbox .contbox h4 span {
+	font-size:12px;
+	color:#fe840c;
+	margin:0px 5px;
+}
+
+#section .contentbox .list {
+	background-color:#FFF;
+	border-top:1px solid #00c7db;
+}
+#section .contentbox #table th {
+	font-size:16px;
+	font-weight:normal;
+	color:#000;
+}
+#section .contentbox #table,#section .contentbox #table table {
+	width:100%;
+	border-spacing:0px;
+	line-height:40px;
+	color:#999;
+}
+#section .contentbox #table table {
+	margin:0px 0px 10px;
+}
+#section .contentbox #table table th,#section .contentbox #table table td {
+	border:1px solid #b8e8f7;
+	border-spacing:0px;
+	border-left:none;
+	border-top:none;
+}
+#section .contentbox #table .wid-01 {
+	position:relative;
+	width:440px;
+}
+#section .contentbox #table .wid-00 {
+	border-left:1px solid #b8e8f7;
+}
+#section .contentbox #table .wid-02 {
+	width:160px;
+	text-align:center;
+}
+#section .contentbox #table .wid-03 {
+	width:80px;
+	text-align:center;
+}
+#section .contentbox #table table th {
+	font-size:16px;
+	color:#000;
+	font-family:"创艺简楷体";
+	text-align:left;
+	padding:0px 20px;
+	background-color:#b8e8f7;
+}
+#section .contentbox #table table .num {
+	padding:0px 15px;
+	background-color:#b8e8f7;
+}
+#section .contentbox #table table .num input[type = checkbox] {
+	margin:14px 5px 0px 0px;
+	float:left;
+}
+#section .contentbox #table table .num span {
+	line-height:42px;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#333;
+}
+#section .contentbox #table .wid-01 .all {
+	position:absolute;
+	top:0px;
+	left:10px;
+}
+#section .contentbox #table .wid-01 .all input[type = checkbox] {
+	float:left;
+	width:14px;
+	height:14px;
+	margin:14px 5px;
+	
+}
+#section .contentbox #table .wid-01 .all p {
+	float:left;
+	color:#333;
+	line-height:42px;
+	font-size:16px;
+}
+#section .contentbox #table .wid-01 .img {
+	width:80px;
+	height:80px;
+	border:1px solid #909090;
+	float:left;
+	margin:10px;
+}
+#section .contentbox #table .wid-01 figure input[type = checkbox] {
+	float:left;
+	margin:40px 5px 0px 15px;
+}
+#section .contentbox #table .wid-01 figure .img img {
+	height:76px;
+	margin:1px 2px;
+}
+#section .contentbox #table .wid-01 figure hgroup {
+	margin:30px 0px;
+	float:left;
+	font-weight:normal;
+}
+#section .contentbox #table .wid-01 figure h4 {
+	font-size:14px;
+	font-family:"创艺简楷体";
+	color:#007367;
+	width:220px;
+	margin:0px 0px 0 10px;
+	line-height:20px;
+}
+#section .contentbox #table .wid-02 span {
+	display:block;
+	padding:0px;
+	margin:0px;
+	line-height:26px;
+}
+#section .contentbox #table .wid-02 .del {
+	width:60px;
+	margin:0px auto;
+	text-align:center;
+	line-height:26px;
+	background-color:#b8e8f7;
+	color:#fe840c;
+	border-radius:8px;
+}
+#section .contentbox #table .wid-02 .remove {
+	line-height:30px;
+	color:#007367;
+}
+#section .contentbox #table .wid-03 input[type = number] {
+	width:60px;
+	line-height:20px;
+	border:1px solid #dadada;
+	text-align:center;
+}
+
+
+
+
+

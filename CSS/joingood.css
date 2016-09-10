@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+#section figure {
+	width:1000px;
+	margin:0px auto 400px;
+}
+
+#section figure .photo {
+	float:left;
+}
+#section figure .photo img {
+	width:180px;
+}
+
+#section figure hgroup {
+	float:left;
+	width:400px;
+	margin:0px 10px;
+}
+#section figure hgroup h2 {
+	font-size:16px;
+	line-height:20px;
+	margin:5px 0px;
+}
+#section figure hgroup h3 {
+	font-size:14px;
+	line-height:30px;
+	font-weight:normal;
+}
+#section figure figcaption {
+	float:right;
+	width:400px;
+}
+#section figure figcaption h1 {
+	font-size:18px;
+	line-height:24px;
+	margin:0px 0px 52px;
+	float:right;
+	width:100%;
+	text-align:right;
+}
+#section figure figcaption p {
+	font-size:12px;
+	line-height:20px;
+	color:#2598c7;
+	float:right;
+	width:100%;
+	text-align:right;
+}
+#section figure figcaption p span {
+	font-size:16px;
+	line-height:22px;
+	color:#2598c7;
+}
+#section figure figcaption h6 {
+	font-size:12px;
+	line-height:22px;
+	font-weight:normal;
+	float:right;
+	width:100%;
+	text-align:right;
+}
+#section figure figcaption .btnbox {
+	float:right;
+	width:100%;
+}
+#section figure figcaption .btn1 {
+	font-size:16px;
+	line-height:32px;
+	color:#fff;
+	float:right;
+	background-color:#2598c7;
+	padding:0px 24px;
+}
+#section figure figcaption .btn2 {
+	font-size:16px;
+	line-height:30px;
+	color:#2598c7;
+	float:right;
+	border:1px solid #2598c7;
+	padding:0px 24px;
+	margin:0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

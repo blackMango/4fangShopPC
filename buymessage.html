@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/buymessage.css">
+<link rel="stylesheet" type="text/css" href="CSS/head.css">
+<script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+<script type="text/javascript" src="js/buymessage.js"></script>
+<script type="text/javascript" src="js/nav.js"></script>
+<meta charset="utf-8">
+<title>第四方平台商城</title>
+</head>
+
+<body>
+<div id="bg"></div>
+<div id="adress">
+	<div class="ctrl">
+    	<img src="images/photo57.png" />
+    </div>
+    <div class="overflowH">
+        <h3>所在地区：</h3>
+        <select>
+            <option selected>北京</option>
+            <option>上海</option>
+            <option>广州</option>
+            <option>天津</option>
+            <option>西安</option>
+        </select>
+        <select>
+            <option selected>北京市</option>
+            <option>上海</option>
+            <option>广州</option>
+            <option>天津</option>
+            <option>西安</option>
+        </select>
+        <select>
+            <option selected>海淀区</option>
+            <option>西城区</option>
+            <option>东城区</option>
+            <option>朝阳区</option>
+            <option>顺义区</option>
+        </select>
+    </div>
+    <div class="overflowH">
+        <h3>详细地址：</h3>
+        <input type="text">
+    </div>
+    <div class="overflowH">
+        <h3>邮政编码：</h3>
+        <input type="tel">
+    </div>
+    <div class="overflowH">
+        <h3>收货人姓名：</h3>
+        <input type="text">
+    </div>
+    <div class="overflowH">
+        <h3>手机号码：</h3>
+        <input type="tel">
+    </div>
+    <div class="overflowH">
+        <input type="checkbox">
+        <h5>设置为默认收货地址</h5>
+        <a>新增收货地址</a>
+    </div>
+	<div id="button">保存</div>
+</div>
+
+<header id="header">
+	<nav id="navmenu">
+    	<ul class="overflowH">
+        	<li>
+            	<a href="">投诉建议</a>
+            </li>
+            <li id="service">
+            	<div id="telbox">
+                	<div id="tel">
+                        <p>在线客服</p>
+                        <p>电话客服</p>
+                    </div>
+                </div>
+                <img class="icon" src="images/phone.png">
+                <span>联系客服</span>
+                <img class="img" src="images/photo00.png">
+                <img class="img" src="images/photo0.png">
+            </li>
+        	<li>
+            	<img class="icon" src="images/order.png">
+                <a href="order.html" target="_parent">我的订单</a>
+            </li>
+        	<li>
+            	<img class="icon" src="images/buy.png">
+                <a href="goods.html" target="_blank">我的购物车</a>
+                <div class="cont">0</div>
+            </li>
+        	<li>
+            	<a  href="regist.html" target="_blank">免费注册</a>
+            </li>
+        	<li>
+            	<a href="login.html" target="_blank">请登录</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="search overflowH">
+    	<img class="img" src="images/logo.png">
+        <div class="buystep">
+        	<ul class="overflowH">
+            	<li class="currentstep">提交订单</li>
+            	<li>确认付款</li>
+            	<li>确认收货</li>
+            	<li>商品评价</li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section id="section">
+	<hgroup class="overflowH">
+    	<h2>确认收货地址</h2>
+        <a href="manageadress.html" target="_blank"><h3>管理收货地址</h3></a>
+    </hgroup>
+    <div class="adressbox">
+    	<h4>寄送至：</h4>
+        <div class="currentcolor overflowH">
+        	<input name="user" type="radio" checked />
+            <p>北京   北京市   海淀区   中关村鼎好大厦808（张三收）15011478573</p>
+            <span>【默认地址】</span>
+            <h6>修改地址</h6>
+        </div>
+        <div class="overflowH">
+        	<input name="user" type="radio" />
+            <p>北京 北京市 海淀区 中关村鼎好大厦808（张三收）15011478573</p>
+            <h6>修改地址</h6>
+        </div>
+        <div class="overflowH">
+        	<input name="user" type="radio" />
+            <p>北京 北京市 海淀区 中关村鼎好大厦808（张三收）15011478573</p>
+            <h6>修改地址</h6>
+        </div>
+        <div class="overflowH">
+        	<input name="user" type="radio" />
+            <p>北京 北京市 海淀区 中关村鼎好大厦808（张三收）15011478573</p>
+            <h6>修改地址</h6>
+        </div>
+        <div class="overflowH">
+        	<input name="user" type="radio" />
+            <p>北京 北京市 海淀区 中关村鼎好大厦808（张三收）15011478573</p>
+            <h6>修改地址</h6>
+        </div>
+        <h5>使用其他地址</h5>
+    </div>
+    <h2>确认订单信息</h2>
+    <div class="list overflowH">
+        <table border="0" id="table">
+            <tr>
+                <th class="wid-01">商品详情</th>
+                <th class="wid-02">单价（元）</th>
+                <th class="wid-03">数量</th>
+                <th class="wid-02">金额（元）</th>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <table border="0">
+                        <tr>
+                            <td class="num" colspan="6">
+                                <span>店铺：rachelchloe（瑞可儿）旗舰店</span>
+                                <img src="images/photo49.png" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="wid-01 wid-00">
+                                <figure>
+                                    <div class="img"><img src="images/photo20.png"></div>
+                                    <hgroup>
+                                        <h4>华为【荣耀6】 移动4G/3G/2G</h4>
+                                        <h4>颜色分类：黑色 32G</h4>
+                                    </hgroup>
+                                </figure>
+                            </td>
+                            <td class="wid-02">1999.00</td>
+                            <td class="wid-03">
+                                <input type="number" min="1" value="1" />
+                            </td>
+                            <td class="wid-02">
+                                <span>1999.00</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div class="saybox">
+        	<div class="say overflowH">
+            	<h5>给卖家留言：</h5>
+                <input type="text" />
+            </div>
+        	<div class="say overflowH">
+            	<h5>配送方式：</h5>
+                <input type="checkbox" />
+                <h6>普通配送</h6>
+                <select>
+                	<option selected>快递免邮</option>
+                	<option>快递免邮</option>
+                	<option>快递免邮</option>
+                </select>
+            </div>
+        	<div class="say overflowH">
+            	<h5>店铺合计（含运费）：</h5>
+                <p>￥1999.00</p>
+            </div>
+        </div>
+        <div class="contbox">
+        	<div class="say overflowH">
+            	<h5>实付款：</h5>
+                <span>￥1999.00</span>
+            </div>
+        	<div class="say overflowH">
+            	<h5>寄送至：</h5>
+                <h6>北京 北京市 海淀区 中关村鼎好大厦808</h6>
+            </div>
+        	<div class="say overflowH">
+            	<h5>收货人：</h5>
+                <h6>张三 15011478573</h6>
+            </div>
+            <div class="btn">提交订单</div>
+        </div>
+    </div>
+</section>
+
+<div class="footbox">
+    <iframe src="foot.html" width="100%" height="500" marginwidth="0" marginheight="0" name="foot" scrolling="no" frameborder="0"></iframe>
+</div>
+</body>
+</html>

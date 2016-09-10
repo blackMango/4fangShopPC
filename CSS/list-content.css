@@ -1,0 +1,198 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.contentbox {
+	width:100%;
+}
+.contentbox ul {
+	margin:10px auto 0px;
+}
+.contentbox li {
+	width:16.66%;
+	text-align:center;
+	list-style:none;
+	float:left;
+	line-height:34px;
+	border-bottom:1px solid #00c7db;
+	cursor:pointer;
+}
+.contentbox #nav a {
+	font-family:"创艺简标宋";
+	font-size:14px;
+	line-height:34px;
+}
+.current {
+	border:1px solid #00c7db;
+	/*border-bottom:1px solid rgba(0,0,0,0) !important;*/
+	border-bottom:none !important;
+	color:#0086af;
+}
+.contentbox .search {
+	margin:10px;
+}
+.contentbox .search input {
+	width:200px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #00c7db;
+	background-color:#fafafa;
+	padding:0px 10px;
+	color:#999;
+	float:right;
+}
+.contentbox .search span {
+	float:right;
+	width:60px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	color:#fafafa;
+	background-color:#00c7db;
+	border-radius:0px 15px 15px 0px;
+}
+.contentbox .list {
+	background-color:#FFF;
+	border-top:1px solid #00c7db;
+}
+.contentbox #table,.contentbox #table table {
+	width:760px;
+	border-spacing:0px;
+	line-height:40px;
+	color:#999;
+}
+.contentbox #table table {
+	margin:0px 0px 10px;
+}
+.contentbox #table table th,.contentbox #table table td {
+	border:1px solid #b8e8f7;
+	border-spacing:0px;
+	border-left:none;
+}
+.contentbox #table .wid-01 {
+	width:340px;
+}
+.contentbox #table .wid-02 {
+	width:94px;
+	text-align:center;
+}
+.contentbox #table .wid-03 {
+	width:44px;
+	text-align:center;
+}
+.contentbox #table table th {
+	font-size:16px;
+	color:#000;
+	font-family:"创艺简楷体";
+	text-align:left;
+	padding:0px 20px;
+	background-color:#b8e8f7;
+}
+.contentbox #table table .num {
+	padding:0px 20px;
+	background-color:#b8e8f7;
+}
+.contentbox #table .wid-01 .img {
+	width:80px;
+	height:80px;
+	border:1px solid #909090;
+	float:left;
+	margin:10px;
+}
+.contentbox #table .wid-01 .img img {
+	height:76px;
+	margin:1px 2px;
+}
+.contentbox #table .wid-01 hgroup {
+	margin:30px 0px;
+	float:left;
+	font-weight:normal;
+}
+.contentbox #table .wid-01 h4 {
+	font-size:14px;
+	font-family:"创艺简楷体";
+	color:#007367;
+	width:220px;
+	margin:0px 0px 0 10px;
+	line-height:20px;
+}
+.contentbox #table .wid-02 span {
+	display:block;
+	padding:0px;
+	margin:0px;
+	line-height:26px;
+}
+.contentbox #table .wid-02 .cancel {
+	display:inline-block;
+	width:80px;
+	line-height:30px;
+	background-color:#b8e8f7;
+	border-radius:6px;
+	color:#F00;
+	margin:0px;
+	padding:0px;
+	font-family:"创艺简楷体";
+}
+.contentbox #table .wid-02 .affirm {
+	padding:0px;
+	margin:0px;
+	display:block;
+	line-height:26px;
+	font-family:"创艺简楷体";
+}
+.contentbox #table .wid-02 .look {
+	padding:0px;
+	margin:0px;
+	display:block;
+	line-height:26px;
+	font-family:"创艺简楷体";
+	color:#007367;
+}
+
+
+
+.contentbox .pagebox {
+	line-height:18px;
+	font-size:14px;
+	color:#333333;
+	float:right;
+	margin-right:10px;
+}
+.contentbox .pagebox > .page {
+	float:left;
+	margin:5px 5px 8px;
+}
+.contentbox .pagebox > .go {
+	width:18px;
+	height:18px;
+	color:#f58417;
+	border:1px solid #b8dcf5;
+	background-color:#eaf6ff;
+}
+.contentbox .pagebox input{
+	width:18px;
+	height:18px;
+	text-align:center;
+	border:1px solid #aaa;
+	background-color:#fafafa;
+}
+.contentbox .pagebox mark{
+	color:#f58417;
+	background-color:inherit;
+	letter-spacing:1px;
+	display:inline-block;
+}
+.contentbox .pagebox span:nth-child(1) a{
+	color:#f58417;
+}
+.contentbox .pagebox span{
+	background-color:#CCC;
+	margin:0 2px;
+	padding:0 4px;
+}
+.contentbox .pagebox a{
+	color:#333333;
+}
+.contentbox .pagebox a:hover{
+	color:#f58417;
+}
+

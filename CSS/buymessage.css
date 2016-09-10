@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+.fix {
+	width:100%;
+	position:fixed;
+	top:0px;  
+	left:0px;  
+}
+#bg{ 
+	display:none;  
+	position:fixed;  
+	top:0%;  
+	left:0%;  
+	width:100%;
+	height:100%;
+	background-color:#444;  
+	z-index:9;  
+	-moz-opacity:0.8;
+	opacity:0.8;  
+	filter:alpha(opacity=80);
+}
+#adress {
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-left:-300px;
+	width:600px;
+	background-color:#fff;
+	border:1px solid #b8e8f7;
+	padding:50px 99px 10px;
+	z-index:99;
+	display:none;
+}
+#adress > .ctrl {
+	position:absolute;
+	top:20px;
+	right:30px;
+	float:right;
+	width:24px;
+	height:24px;
+	border-radius:24px;
+	background-color:#4ecef6;
+	cursor:pointer;
+}
+#adress > .ctrl img {
+	height:16px;
+	margin:4px 3px;
+}
+#adress #button {
+	width:100px;
+	line-height:36px;
+	font-size:18px;
+	color:#fff;
+	background-color:#1684e4;
+	border-radius:8px;
+	text-align:center;
+	margin:20px auto;
+	cursor:pointer;
+}
+#button:active {
+	background-color:#c90797;
+}
+#adress h3 {
+	width:100px;
+	font-size:16px;
+	line-height:50px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+}
+#adress a {
+	font-size:14px;
+	line-height:36px;
+	color:#1684e4;
+	float:right;
+}
+#adress h5 {
+	font-size:14px;
+	line-height:36px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+	margin:0px 0px 0px 4px;
+}
+#adress select {
+	display:inline-block;
+	font-size:14px;
+	width:98px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #00b7ee;
+	margin:10px 0px 0px;
+}
+#adress input[type = tel],#adress input[type = text] {
+	width:300px;
+	height:30px;
+	border:1px solid #00b7ee;
+	margin:10px 0px;
+	padding:0px 4px;
+	display:inline-block;
+}
+#adress input[type = checkbox] {
+	width:14px;
+	height:14px;
+	margin:11px 0px;
+	display:inline-block;
+	float:left;
+}
+
+
+#section {
+	width:1000px;
+	margin:0px auto;
+}
+#section > hgroup h2 {
+	float:left;
+	font-size:14px;
+	line-height:32px;
+	font-weight:normal;
+	color:#000;
+}
+#section > hgroup h3 {
+	float:right;
+	font-size:14px;
+	line-height:24px;
+	font-weight:normal;
+	color:#2598c7;
+}
+#section .adressbox {
+	background-color:#fff;
+	padding:20px 10px 0px;
+}
+#section .adressbox h4 {
+	font-size:14px;
+	line-height:32px;
+	color:#333;
+}
+#section .adressbox input[type = radio] {
+	float:left;
+	margin:4px 4px 0px 40px;
+}
+#section .adressbox .currentcolor p {
+	font-weight:bold;
+}
+#section .adressbox p {
+	float:left;
+	line-height:24px;
+	color:#333;
+}
+#section .adressbox span {
+	float:left;
+	line-height:24px;
+	color:#333;
+	margin:0px 20px;
+	font-weight:bold;
+}
+#section .adressbox h6 {
+	cursor:pointer;
+	float:right;
+	line-height:24px;
+	color:#2598c7;
+	margin:0px 10px;
+	font-weight:normal;
+}
+#section .adressbox h5 {
+	cursor:pointer;
+	font-size:14px;
+	line-height:40px;
+	font-weight:normal;
+	color:#2598c7;
+	margin:0px 40px;
+	border-bottom:1px dashed #00b7ee;
+}
+#section h2 {
+	font-size:14px;
+	line-height:32px;
+	font-weight:normal;
+	color:#000;
+	margin:8px 0px 0px;
+}
+
+
+#section > .list {
+	border-top:1px solid #00c7db;
+}
+#section > .list #table th {
+	font-size:16px;
+	font-weight:normal;
+	color:#000;
+}
+#section > .list #table,#section > .list #table table {
+	width:100%;
+	border-spacing:0px;
+	line-height:40px;
+	color:#999;
+}
+#section > .list #table table th,#section > .list #table table td {
+	border:1px solid #b8e8f7;
+	border-spacing:0px;
+	border-left:none;
+	border-top:none;
+}
+#section > .list #table .wid-01 {
+	width:440px;
+}
+#section > .list #table .wid-00 {
+	border-left:1px solid #b8e8f7;
+}
+#section > .list #table .wid-02 {
+	width:220px;
+	text-align:center;
+}
+#section > .list #table .wid-03 {
+	width:120px;
+	text-align:center;
+}
+#section > .list #table table th {
+	font-size:16px;
+	color:#000;
+	font-family:"创艺简楷体";
+	text-align:left;
+	padding:0px 20px;
+	background-color:#b8e8f7;
+}
+#section > .list #table table .num {
+	padding:0px 15px;
+	background-color:#b8e8f7;
+}
+#section > .list #table table .num span {
+	line-height:42px;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#333;
+}
+#section > .list #table table .num img {
+	float:left;
+	height:16px;
+	margin:14px 8px 0px;
+}
+#section > .list #table .wid-01 .img {
+	width:80px;
+	height:80px;
+	border:1px solid #909090;
+	float:left;
+	margin:10px;
+}
+#section > .list #table .wid-01 figure .img img {
+	height:76px;
+	margin:1px 2px;
+}
+#section > .list #table .wid-01 figure hgroup {
+	margin:30px 0px;
+	float:left;
+	font-weight:normal;
+}
+#section > .list #table .wid-01 figure h4 {
+	font-size:14px;
+	font-family:"创艺简楷体";
+	color:#007367;
+	width:220px;
+	margin:0px 0px 0 10px;
+	line-height:20px;
+}
+#section > .list #table .wid-02 span {
+	display:block;
+	padding:0px;
+	margin:0px;
+	line-height:26px;
+	color:#2598c7;
+}
+#section > .list #table .wid-03 input[type = number] {
+	width:60px;
+	line-height:20px;
+	border:1px solid #dadada;
+	text-align:center;
+}
+#section > .list .saybox {
+	background-color:#fff;
+	padding:10px 20px;
+}
+#section > .list .contbox {
+	border:1px solid #b8e8f7;
+	padding:10px 20px;
+	margin:0px 0px 20px;
+}
+#section > .list .say h5 {
+	font-size:12px;
+	color:#333;
+	line-height:32px;
+	font-weight:normal;
+	float:left;
+}
+#section > .list .say h6 {
+	font-size:12px;
+	color:#666;
+	line-height:32px;
+	font-weight:normal;
+	float:left;
+}
+#section > .list .say p {
+	font-size:14px;
+	color:#2598c7;
+	line-height:32px;
+	font-weight:normal;
+	float:left;
+}
+#section > .list .say span {
+	font-size:20px;
+	color:#2598c7;
+	line-height:32px;
+	font-weight:normal;
+	float:left;
+}
+
+#section > .list .say input[type = text] {
+	float:left;
+	width:800px;
+	line-height:20px;
+	margin:6px 2px 0px;
+	border:1px solid #b8e8f7;
+}
+#section > .list .say input[type = checkbox] {
+	float:left;
+	width:12px;
+	height:12px;
+	margin:10px 4px 0px 2px;
+}
+#section > .list .say select {
+	float:left;
+	width:100px;
+	line-height:20px;
+	margin:6px 20px 0px;
+}
+#section > .list .btn {
+	margin:0px auto;
+	width:120px;
+	line-height:30px;
+	border-radius:6px;
+	background-color:#2598c7;
+	color:#fafafa;
+	font-size:16px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
